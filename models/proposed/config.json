@@ -1,0 +1,29 @@
+{
+  "alpha_range": {
+    "high": 1.0,
+    "low": 0.1
+  },
+  "batch_size": 32,
+  "budget": 0.5,
+  "data_dir": "../data",
+  "model_dir": "../models",
+  "net_a": {
+    "in_channels": 3,
+    "kernel_size": 7,
+    "out_channels": 27
+  },
+  "net_e": {
+    "in_channels": 3,
+    "out_channels": 1
+  },
+  "num_epochs": 30,
+  "num_workers": 16,
+  "optimizer_a": {
+    "lr": 0.0001
+  },
+  "optimizer_e": {
+    "lr": 0.0001
+  },
+  "shuffle_seed": 12345,
+  "tau": 1.0
+}

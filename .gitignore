@@ -1,0 +1,11 @@
+
+# Python
+.venv
+__pycache__
+
+# Apple
+.DS_Store
+
+#
+data/images
+source_code/*.png
